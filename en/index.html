@@ -42,15 +42,17 @@
 <span class="nav-cover"></span>
 
 <div class="site-wrapper">
+    <!-- % if 'main_index' in pagekind and BANNER_URL : -->
     <header class="main-header post-head no-cover"><nav class="main-nav overlay clearfix"><a class="blog-logo" href="https://kreis-diepholz.de/"><img src="https://getnikola.com/assets/img/logo.svg" alt="Blog Logo"></a>
             <a class="menu-button" href="#"><span class="burger">☰</span><span class="word">Menu</span></a>
-        </nav><div class="vertical">
+        </nav><!-- % if 'main_index' in pagekind: --><div class="vertical">
             <div class="main-header-content inner">
                 <h1 class="page-title">Kreis Diepholz</h1>
                 <h2 class="page-description">Neuigkeiten aus dem Kreis Diepholz (1885-1932)</h2>
             </div>
         </div>
         <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+        
     </header><main id="content" class="content" role="main"><div class="postindex">
 
 
