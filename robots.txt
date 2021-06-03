@@ -1,0 +1,4 @@
+Sitemap: https://kreis-diepholz.de/sitemapindex.xml
+
+User-Agent: *
+Host: kreis-diepholz.de
