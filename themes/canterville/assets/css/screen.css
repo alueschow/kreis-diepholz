@@ -254,7 +254,8 @@ a {
 }
 
 a:hover {
-    color: #111;
+    /* color: #111; */
+	color: #B92837;
 }
 
 p, ul, ol, dl {
@@ -550,7 +551,8 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    /* background: #111; */
+	background: #B92837;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -712,7 +714,8 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px;
-    color: #111 !important;
+    /* color: #111 !important; */
+	color: #B92837 !important;
     text-align: center;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
@@ -812,7 +815,8 @@ body.nav-opened .nav {
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    /* background: rgba(0,0,0,0.1); */
+	background: #B92837;
     transition: all 0.5s ease;
 }
 .menu-button:focus {
@@ -825,8 +829,10 @@ body.nav-opened .nav {
 
 body.nav-opened .menu-button {
     padding: 0 12px;
-    background: #111 !important;
-    border-color: #111 !important;
+    /* background: #111 !important; */
+    /* border-color: #111 !important; */
+	background: #B92837 !important;
+	border-color: #B92837 !important;
     color: #fff !important;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
@@ -846,7 +852,7 @@ body.nav-opened .menu-button .word {
     right: 0;
     height: 70px;
     border: none;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%); */
 }
 .no-cover .main-nav.overlay,
 .no-cover .menu-button {
@@ -875,12 +881,14 @@ body.nav-opened .menu-button .word {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 10px 0 10px 0;
+    /* margin: 10px 0 10px 0; */
+	margin: 200px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    color: #fff;
+    /* color: #fff; */
+	color: #000;
 }
 
 .page-description {
@@ -1164,7 +1172,8 @@ body:not(.post-template) .post-title {
     color: #9EABB3;
 }
 .author-meta a:hover {
-    color: #111;
+    /* color: #111; */
+	color: #B92837;
 }
 
 /* Create some space to the right for the share links */

@@ -17,15 +17,15 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Andreas Lüschow"  # (translatable)
-BLOG_TITLE = "Kreis Diepholz"  # (translatable)
+BLOG_TITLE = "Die PARTEI — Kreisverband Diepholz"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://kreis-diepholz.de/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://kreis-diepholz.de/"
-BLOG_EMAIL = "andreas.lueschow@gmx.de"
-BLOG_DESCRIPTION = "Neuigkeiten aus dem Kreis Diepholz (1885-1932)"  # (translatable)
+BLOG_EMAIL = "info@kreis-diepholz.de"
+BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -161,12 +161,12 @@ NAVIGATION_ALT_LINKS = {
 # Name of the theme to use.
 # THEME = "bootblog4"
 THEME = 'canterville'
-LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+# LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+BACKGROUND_URL = '/assets/img/silk-road.jpg'
 GLOBAL_CONTEXT = {
         'TWITTER_URL': 'https://twitter.com/getnikola',
         'GITHUB_URL': 'https://github.com/getnikola',
         'LINKEDIN_URL': None,
-        'BANNER_URL': '/assets/img/silk-road.jpg'
 }
 
 # A theme color. In default themes, it might be displayed by some browsers as
