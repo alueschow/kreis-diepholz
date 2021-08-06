@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		("/pages/wahlprogramm-2021", "Wahlprogramm"),
 		("/pages/gute-vorsaetze", "Gute Vorsätze"),
+		("/pages/analysen", "Analysen"),
 		("/pages/impressum", "Impressum"),
         #("/archive.html", "Archiv"),
         #("/categories/", "Tags"),
