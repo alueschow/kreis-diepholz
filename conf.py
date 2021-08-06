@@ -17,14 +17,14 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Andreas Lüschow"  # (translatable)
-BLOG_TITLE = "Die PARTEI — Kreisverband Diepholz"  # (translatable)
+BLOG_TITLE = "Die PARTEI — Kreis Diepholz, Wahlbereich VI"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://kreis-diepholz.de/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://kreis-diepholz.de/"
-BLOG_EMAIL = "info@kreis-diepholz.de"
+BLOG_EMAIL = "land@kreis-diepholz.de"
 BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
@@ -99,7 +99,7 @@ DEFAULT_LANG = "de"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "en": "./en",
+    # "en": "./en",
 }
 
 # What will translated input files be named like?
@@ -139,16 +139,19 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archiv"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS-Feed"),
+		("/pages/wahlprogramm-2021", "Wahlprogramm"),
+		("/pages/gute-vorsaetze", "Gute Vorsätze"),
+		("/pages/impressum", "Impressum"),
+        #("/archive.html", "Archiv"),
+        #("/categories/", "Tags"),
+        #("/rss.xml", "RSS-Feed"),
     ),
 
-    "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
-    ),
+    #"en": (
+        #("/en/archive.html", "Archive"),
+        #("/en/categories/", "Tags"),
+        #("/en/rss.xml", "RSS feed"),
+    #),
 }
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -246,12 +249,13 @@ THEME_CONFIG = {
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-)
+POSTS = ()
+#POSTS = (
+    #("posts/*.rst", "posts", "post.tmpl"),
+    #("posts/*.md", "posts", "post.tmpl"),
+    #("posts/*.txt", "posts", "post.tmpl"),
+    #("posts/*.html", "posts", "post.tmpl"),
+#)
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
@@ -695,7 +699,7 @@ GITHUB_REMOTE_NAME = 'origin'
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
-GITHUB_COMMIT_SOURCE = True
+GITHUB_COMMIT_SOURCE = False
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
@@ -1417,11 +1421,3 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
-
-
-
-
-GITHUB_SOURCE_BRANCH = 'src'
-GITHUB_DEPLOY_BRANCH = 'master'
-GITHUB_REMOTE_NAME = 'origin'
-GITHUB_COMMIT_SOURCE = False
