@@ -37,7 +37,7 @@ Dreck-weg-Jahr statt Dreck-weg-Tag!
 
 -----
 
-    **Bitte auch die "Guten Vorsätze" beachten**: https://kreis-diepholz.de/pages/gute-vorsaetze
+    **Bitte auch die "Guten Vorsätze" beachten**: https://www.kreis-diepholz.de/pages/gute-vorsaetze
 
 -----
 
@@ -96,4 +96,4 @@ Die Gräben zwischen uns müssen wieder tiefer werden! Die bislang nur im Unterg
 
 -----
 
-    **Bitte auch die "Guten Vorsätze" beachten**: https://kreis-diepholz.de/pages/gute-vorsaetze
+    **Bitte auch die "Guten Vorsätze" beachten**: https://www.kreis-diepholz.de/pages/gute-vorsaetze
